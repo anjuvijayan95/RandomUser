@@ -1,0 +1,13 @@
+h1{
+    font-size: 45px;
+}
+.circle-wrapper{
+    width: 550px;
+    height: 340px;
+
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+}

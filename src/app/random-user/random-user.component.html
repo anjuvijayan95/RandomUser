@@ -1,0 +1,34 @@
+<div class="container">
+    <h1 class="text-center mt-5 fw-bold ">Generate Random Users</h1>
+    <div class="row position-relative" [ngStyle]="{'background-color':color}" style="margin-top:90px ; padding-bottom: 10px;">
+        <div class="col-md-3"></div>
+        
+<!-- <pre>
+    {{content | json}}
+
+   
+</pre>  -->
+        
+        <div class="col-md-6 circle-wrapper bg-light mt-5 mb-5 position-relative">
+            <div [ngStyle]="{'background-color':color}" class="circle border border-light border-2 mb-5 rounded-circle position-absolute top-0 start-50 translate-middle">
+                <img height="195px" [src]="content.image" alt="" class="rounded-circle">
+            </div>
+            <div class="content mt-5 position-absolute top-50 start-50 translate-middle text-center">
+                <h2>{{content.firstName}} {{content.lastName}}</h2>
+                <h5>
+                    <i class="fa-solid fa-envelope"></i>
+                    {{content.email}}<br>
+                    <i class="fa-solid fa-phone"></i>
+                    {{content.phone}}<br>
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                    {{content.address.addr}}</h5>
+            </div>
+        </div>
+
+        <div class="col-md-3"></div>
+
+        <button (click)="ngOnInit()" type="button" class="btn btn-light w-25 position-absolute bottom-0 start-50 translate-middle-x  mt-2 mb-1 bg-secondary"><h5>Generate Random User</h5></button>
+
+
+    </div>
+</div>

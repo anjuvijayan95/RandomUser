@@ -1,0 +1,203 @@
+
+{
+    "users": [
+      {
+        "id": 1,
+        "firstName": "Terry",
+        "lastName": "Medhurst",
+        "age": 50,
+        "gender": "male",
+        "email": "atuny0@sohu.com",
+        "phone": "+63 791 675 8914",
+        "username": "atuny0",
+        "password": "9uQFF1Lh",
+        "image": "https://robohash.org/hicveldicta.png",
+
+        "address": {
+          "addr": "1745 T Street Southeast",
+          "city": "Washington"
+        }
+      },
+
+
+      {
+        "id": 2,
+        "firstName": "Sheldon",
+        "lastName": "Quigley",
+        "age": 28,
+        "gender": "male",
+        "email": "hbingley1@plala.or.jp",
+        "phone": "+7 813 117 7139",
+        "username": "hbingley1",
+        "password": "CQutx25i8r",
+        "image": "https://robohash.org/doloremquesintcorrupti.png",
+
+        "address": {
+          "addr": "6007 Applegate Lane",
+          "city": "Louisville"
+
+        }
+      },
+
+
+      {
+        "id": 3,
+        "firstName": "Terrill",
+        "lastName": "Hills",
+        "age": 38,
+        "gender": "male",
+        "email": "rshawe2@51.la",
+        "phone": "+63 739 292 7942",
+        "username": "rshawe2",
+        "password": "OWsTbMUgFc",
+        "image": "https://robohash.org/consequunturautconsequatur.png",
+        
+        "address": {
+          "addr": "560 Penstock Drive",
+          "city": "Grass Valley"
+          
+        }
+    },
+
+
+      {
+        "id": 4,
+        "firstName": "Miles",
+        "lastName": "Cummerata",
+        "age": 49,
+        "gender": "male",
+        "email": "yraigatt3@nature.com",
+        "phone": "+86 461 145 4186",
+        "username": "yraigatt3",
+        "password": "sRQxjPfdS",
+        "image": "https://robohash.org/facilisdignissimosdolore.png",
+        
+        "address": {
+          "addr": "150 Carter Street",
+          "city": "Louisville"
+
+        }
+        },
+
+
+
+      {
+        "id": 5,
+        "firstName": "Mavis",
+        "lastName": "Schultz",
+        "age": 38,
+        "gender": "male",
+        "email": "kmeus4@upenn.edu",
+        "phone": "+372 285 771 1911",
+        "username": "kmeus4",
+        "password": "aUTdmmmbH",
+        "image": "https://robohash.org/adverovelit.png",
+        
+        "address": {
+          "addr": "2721 Lindsay Avenue",
+          "city": "Louisville"
+        }
+        },
+
+
+      {
+        "id": 6,
+        "firstName": "Alison",
+        "lastName": "Reichert",
+        "age": 21,
+        "gender": "female",
+        "email": "jtreleven5@nhs.uk",
+        "phone": "+351 527 735 3642",
+        "username": "jtreleven5",
+        "password": "zY1nE46Zm",
+        "image": "https://robohash.org/laboriosamfacilisrem.png",
+       
+        "address": {
+          "addr": "18 Densmore Drive",
+          "city": "Essex"
+        }
+    },
+
+
+      {
+        "id": 7,
+        "firstName": "Oleta",
+        "lastName": "Abbott",
+        "age": 31,
+        "gender": "female",
+        "email": "dpettegre6@columbia.edu",
+        "phone": "+62 640 802 7111",
+        "username": "dpettegre6",
+        "password": "YVmhktgYVS",
+        "image": "https://robohash.org/cupiditatererumquos.png",
+       
+        "address": {
+          "addr": "637 Britannia Drive",
+          "city": "Vallejo"
+          
+        }
+      },
+
+
+      {
+        "id": 8,
+        "firstName": "Ewell",
+        "lastName": "Mueller",
+        "age": 29,
+        "gender": "male",
+        "email": "ggude7@chron.com",
+        "phone": "+86 946 297 2275",
+        "username": "ggude7",
+        "password": "MWwlaeWcOoF6",
+        "image": "https://robohash.org/quiaharumsapiente.png",
+        
+        "address": {
+          "addr": "5601 West Crocus Drive",
+          "city": "Glendale"
+        }
+    },
+
+
+
+      {
+        "id": 9,
+        "firstName": "Demetrius",
+        "lastName": "Corkery",
+        "age": 22,
+        "gender": "male",
+        "email": "nloiterton8@aol.com",
+        "phone": "+86 356 590 9727",
+        "username": "nloiterton8",
+        "password": "HTQxxXV9Bq4",
+        "image": "https://robohash.org/excepturiiuremolestiae.png",
+       
+        "address": {
+          "addr": "5403 Illinois Avenue",
+          "city": "Nashville"  
+        }
+      },
+
+
+      {
+        "id": 10,
+        "firstName": "Eleanora",
+        "lastName": "Price",
+        "age": 37,
+        "gender": "female",
+        "email": "umcgourty9@jalbum.net",
+        "phone": "+60 184 408 0824",
+        "username": "umcgourty9",
+        "password": "i0xzpX",
+        "image": "https://robohash.org/aliquamcumqueiure.png",
+       
+        "address": {
+          "addr": "8821 West Myrtle Avenue",
+          "city": "Glendale"
+         }
+      }
+
+      
+    ]
+}
+
+      
