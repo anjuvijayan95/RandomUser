@@ -1,5 +1,5 @@
 import { Component,OnInit} from '@angular/core';
-import { MyUsers } from 'src/model/MyUsers';
+// import { MyUsers } from 'src/model/MyUsers';
 import { ApiCallService } from '../services/api-call.service';
 
 @Component({
@@ -8,13 +8,14 @@ import { ApiCallService } from '../services/api-call.service';
   styleUrls: ['./random-user.component.css']
 })
 export class RandomUserComponent implements OnInit{
-  allUser:MyUsers []=[]
+  // allUser:MyUsers []=[]
   symbol:string=''
   color:string=''
   unique:[]=[]
   idArray:any
   toString:string=''
   content:any
+  d:any
 
 
   constructor(private store:ApiCallService){}
@@ -23,7 +24,8 @@ export class RandomUserComponent implements OnInit{
   ngOnInit():void{
     this.store.getAllUsers().
     subscribe((data:any)=>{
-      this.content=data[Math.floor(Math.random()*data.length)]
+      this.d=data.users
+      this.content=this.d[Math.floor(Math.random()*data.users.length)]
       console.log(this.content);
       
     // this.unique=data.map((d:any)=>d.id)
